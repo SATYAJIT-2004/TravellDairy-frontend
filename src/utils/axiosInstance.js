@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const BASE_URL = "https://travelldairy-backend.onrender.com"
+const BASE_URL = "https://travelldairy-backend.onrender.com/api"
 
 const axiosInstance = axios.create({
    baseURL: BASE_URL,
